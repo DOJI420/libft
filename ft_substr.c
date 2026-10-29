@@ -39,16 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	subs[i] = '\0';
 	return (subs);
 }
-/*int main()
-{
-	char s[] = "1234567890";
-	unsigned int start = 0;
-	size_t len = 10;
-	char *res;
-
-	res = ft_substr(s, start, len);
-	printf("%s\n", res);
-	printf("length of the string: %zu\n", ft_strlen(s));
-	free(res);
-	return 0;
-}*/

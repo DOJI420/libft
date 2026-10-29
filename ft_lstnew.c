@@ -23,13 +23,3 @@ t_list	*ft_lstnew(void *content)
 	new->next = NULL;
 	return (new);
 }
-/*int	main(void)
-{
-	t_list *test_node;
-	char s[] = "we need to cook jessy!";
-
-	test_node = ft_lstnew(s);
-	printf("%s\n", (char *)s);
-	free(test_node);
-	return 0;
-}*/

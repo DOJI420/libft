@@ -38,13 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	s_joined[i + j] = '\0';
 	return (s_joined);
 }
-/*int	main()
-{
-	char s1[] = "1+1=";
-	char s2[] = "2";
-	char *res;
-
-	res = ft_strjoin(s1, s2);
-	printf("%s\n", res);
-	return 0;
-}*/

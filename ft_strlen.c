@@ -23,12 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
-/*int	main()
-{
-	char str[] = "1234567890";
-	size_t x;
-
-	x = ft_strlen(str);
-	printf("%zu", x);
-	return 0;
-}*/

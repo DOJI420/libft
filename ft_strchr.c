@@ -33,15 +33,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*int	main(void)
-{
-	char	s[] = "understanding";
-	char	*res;
-	char	*expected;
-
-	res = ft_strchr(s, 't');
-	expected = strchr(s, 't');
-	printf("mine:     %s\n", res);
-	printf("expected: %s\n", expected);
-	return (0);
-}*/

@@ -35,11 +35,3 @@ void	ft_putnbr_fd(int n, int fd)
 		nb = (unsigned int)n;
 	ft_put_unsigned(nb, fd);
 }
-/*int	main()
-{
-	int	i = -2147483648;
-	int	fd = 0;
-
-	ft_putnbr_fd(i, fd);
-	return 0;
-}*/

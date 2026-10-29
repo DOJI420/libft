@@ -24,15 +24,3 @@ unsigned int	ft_lstsize(t_list *lst)
 	}
 	return (node_count);
 }
-/*int	main()
-{
-	t_list a;
-	t_list b;
-	t_list c;
-
-	a.next = &b;
-	b.next = &c;
-	c.next = NULL;
-	printf("%d\n", ft_lstsize(&a));
-	return 0;
-}*/

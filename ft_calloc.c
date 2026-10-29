@@ -16,33 +16,19 @@ void	*ft_calloc(size_t nmemb, size_t size)
 {
 	size_t	total_size;
 	size_t	i;
-	char	*mptr;
+	char	*str;
 
 	i = 0;
 	total_size = nmemb * size;
-	if (nmemb != 0 && (total_size / nmemb != size))
+	if (nmemb != 0 && total_size / nmemb != size)
 		return (NULL);
-	mptr = malloc(total_size);
-	if (!mptr)
+	str = malloc(total_size);
+	if (str == NULL)
 		return (NULL);
 	while (i < total_size)
 	{
-		mptr[i] = 0;
+		str[i] = 0;
 		i++;
 	}
-	return ((void *)mptr);
+	return ((void *)str);
 }
-/*int main()
-{
-	char *str;
-	size_t len = 0;
-
-	str = ft_calloc(5, sizeof(char));
-	while (len < 5 && str[len] == '\0')
-	{
-		printf("found one here: %zu\n", len);
-		len++;
-	}
-	free(str);
-	return 0;
-}*/

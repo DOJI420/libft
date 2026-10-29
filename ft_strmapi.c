@@ -37,21 +37,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/*static char	make_upper(unsigned int i, char c)
-{
-	(void)i;
-	if (c >= 'a' && c <= 'z')
-		return (c - 32);
-	return (c);
-}
-int	main(void)
-{
-	char	s[] = "asdfghjkl";
-	char	*res;
-
-	res = ft_strmapi(s, make_upper);
-	if (res)
-		printf("%s\n", res);
-	free(res);
-	return (0);
-}*/

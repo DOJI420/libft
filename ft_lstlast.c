@@ -22,21 +22,3 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (lst);
 }
-/*int main(void)
-{
-    t_list a;
-    t_list b;
-    t_list c;
-
-    a.content = "wahaaaaad";
-    a.next = &b;
-
-    b.content = "joooooooj";
-    b.next = &c;
-
-    c.content = "tlataaaaa";
-    c.next = NULL;
-
-    printf("%s\n", (char *)ft_lstlast(&a)->content);
-    return (0);
-}*/

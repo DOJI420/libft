@@ -104,16 +104,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (ft_fill(res, s, c));
 }
-/*int main(void)
-{
-    char **str;
-    int i = 0;
-
-    str = ft_split("hello world 42", ' ');
-    while (str[i] != NULL)
-    {
-        printf("%s\n", str[i]);
-        i++;
-    }
-    return (0);
-}*/

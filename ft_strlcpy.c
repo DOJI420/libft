@@ -35,14 +35,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	dest[i] = '\0';
 	return (srclen);
 }
-/*int	main()
-{
-	char s1[] = "hellooo";
-	char s2[10] ;
-	size_t size = 5;
-	size_t res;
-
-	res = ft_strlcpy(s2, s1, size);
-	printf("%zu\n", res);
-	return 0;
-}*/

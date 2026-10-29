@@ -25,17 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-/*static void	make_upper(unsigned int i, char *c)
-{
-	(void)i;
-	if (*c >= 'a' && *c <= 'z')
-		*c -= 32;
-}
-int	main()
-{
-	char s[] = "abcdefgh";
-
-	ft_striteri(s ,make_upper);
-	printf("%s\n", s);
-	return 0;
-}*/

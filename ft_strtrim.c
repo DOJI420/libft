@@ -12,18 +12,6 @@
 
 #include "libft.h"
 
-static size_t	ft_str_len(const char *str)
-{
-	size_t	len;
-
-	len = 0;
-	while (str[len] != '\0')
-	{
-		len++;
-	}
-	return (len);
-}
-
 static int	ft_isinset(char c, const char *set)
 {
 	size_t	i;
@@ -70,7 +58,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (NULL);
 	while (s1[start] != '\0' && ft_isinset(s1[start], set))
 		start++;
-	end = ft_str_len(s1);
+	end = ft_strlen(s1);
 	while (end > start && ft_isinset(s1[end - 1], set))
 		end--;
 	return (ft_copy_trimed(s1, start, end));

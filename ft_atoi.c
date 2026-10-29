@@ -38,12 +38,3 @@ int	ft_atoi(const char *str)
 	}
 	return (res * flag);
 }
-/*int main(void)
-{
-    printf("%d\n", ft_atoi("67"));
-    printf("%d\n", ft_atoi("-67"));
-    printf("%d\n", ft_atoi("--67"));
-    printf("%d\n", ft_atoi(" \t  -42069"));
-    printf("%d\n", ft_atoi("69 00"));
-    return (0);
-}*/

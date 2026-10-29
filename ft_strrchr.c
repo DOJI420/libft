@@ -35,14 +35,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (last_match);
 }
-/*int	main()
-{
-	char	s[] = "boomba";
-	int	c = 'm';
-	char	*i;
-
-
-	i = ft_strrchr(s, c);
-	printf("%s\n", i);
-	return 0;
-}*/

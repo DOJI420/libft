@@ -17,7 +17,6 @@ make
 This generates the static library libft.a, which contains the compiled functions.
 
 Available Commands:
-
 make — Compiles the source files and creates libft.a.
 
 make clean — Removes the object files (.o).

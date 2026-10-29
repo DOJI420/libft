@@ -27,14 +27,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*int	main()
-{
-	char s1[] = "abce";
-	char s2[] = "abcd";
-	int	res;
-	size_t n = 3;
-
-	res = ft_strncmp(s1, s2, n);
-	printf("%d\n", res);
-	return 0;
-}*/

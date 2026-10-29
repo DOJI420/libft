@@ -33,15 +33,3 @@ char	*ft_strdup(const char *s)
 	dup[len] = '\0';
 	return (dup);
 }
-/*int	main()
-{
-	char s[] = "ana hwa ana";
-	char *mine;
-	char *expected;
-
-	mine = ft_strdup(s);
-	expected = strdup(s);
-	printf("%s\n", mine);
-	printf("%s\n", expected);
-	return 0;
-}*/

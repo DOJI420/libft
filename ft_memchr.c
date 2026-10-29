@@ -31,17 +31,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*int	main()
-{
-	char	s[] = "abcdefg";
-	int		i = 'g';
-	size_t	n = 10;
-	char	*res;
-
-	res = ft_memchr(s, i, n);
-	if (res)
-		printf("%s\n", res);
-	if (!res)
-		printf("not found.\n");
-	return 0;
-}*/

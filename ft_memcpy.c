@@ -28,18 +28,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t count)
 	}
 	return (dest);
 }
-/*int main(void)
-{
-    char src[] = "maaanmaaan";
-    char dst[10];
-	char dst2[10];
-	size_t count = 5;
-
-	memcpy(NULL, NULL, count);
-    ft_memcpy(NULL, NULL, count);
-	dst[count] = '\0';
-	dst2[count] = '\0';
-	printf("memcpy res: %s\n", dst);
-    printf("ft_memcpy res: %s", dst2);
-    return (0);
-}*/
