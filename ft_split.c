@@ -58,7 +58,7 @@ static int	ft_wordcount(char const *str, char c)
 	{
 		if (str[i] == c)
 			in_word = 0;
-		else if (in_word == 0)
+		if (str[i] != c && in_word == 0)
 		{
 			word_count++;
 			in_word = 1;
