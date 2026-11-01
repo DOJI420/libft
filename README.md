@@ -161,9 +161,7 @@ Output: `from`
 AI was used only as a learning and review aid, never to write the final project code:
 
 - **Concept explanations:** header files, self-referential structures, `.` vs `->`, `void *` and casting rules.
-- **Makefile:** understanding how rules, pattern rules, variables and `.PHONY` work, and a line-by-line walkthrough of my Makefile.
-- **Testing:** writing small `main` functions to test `ft_lstlast` and `ft_lstsize`, which are not part of the submitted library.
-- **Code review:** checking my `ft_lstsize` and test code for mistakes.
-- **Documentation:** drafting the structure of this README.
+- **Makefile:** understanding how rules, pattern rules, variables and `.PHONY` work.
+- **Code review:** checking and test code for mistakes.
 
 All library functions were written, tested and understood by me.
