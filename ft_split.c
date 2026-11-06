@@ -45,7 +45,7 @@ static char	*ft_alloc_word(const char *str, char d)
 	return (word);
 }
 
-static int	ft_wordcount(char const *str, char c)
+static int	ft_wordcount(const char *str, char c)
 {
 	int	word_count;
 	int	in_word;
@@ -68,7 +68,7 @@ static int	ft_wordcount(char const *str, char c)
 	return (word_count);
 }
 
-static char	**ft_fill(char **res, char const *s, char c)
+static char	**ft_fill(char **res, const char *s, char c)
 {
 	int	i;
 	int	j;

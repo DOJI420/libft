@@ -62,8 +62,7 @@ Commands (run them in the folder that contains the Makefile):
         Deletes the .o object files and also libft.a.
 
     make re
-        Rebuilds everything from scratch: runs "make fclean", then
-        "make all".
+        Rebuilds everything from scratch: runs "make  fclean", then "make all".
 
 To use the library in your own program, add this line at the top of your
 source file:
@@ -97,13 +96,13 @@ Run your program with:
 
 RESOURCES
 
-    - man pages for the original libc functions (for example,
-      "man 3 strlcpy" opens the manual page of strlcpy)
+    - man pages for the original libc function
+    (for example,"man 3 strlcpy" opens the manual page of strlcpy)
     - GNU Make manual:
       https://www.gnu.org/software/make/manual/make.html
     - The C Programming Language.
 
 Use of AI: AI was used as a learning aid to explain concepts (header
-files, self-referential structures, pointers and casting, Makefiles, functions, header file).
+files, self-referential structures, pointers and casting, Makefiles, functions, header file, etc...).
 
 All library code was written and tested by me.

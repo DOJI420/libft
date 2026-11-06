@@ -6,7 +6,7 @@
 /*   By: yibn-yah <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 16:27:07 by yibn-yah          #+#    #+#             */
-/*   Updated: 2026/10/19 15:18:13 by yibn-yah         ###   ########.fr       */
+/*   Updated: 2026/11/05 08:39:23 by yibn-yah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ int	ft_atoi(const char *nptr)
 	{
 		if (ft_overflow(res, nptr[i] - '0', flag))
 			return (-(flag + 1) / 2);
-		res = res * 10 + (nptr[i] - '0');
+		res = (res * 10) + (nptr[i] - '0');
 		i++;
 	}
 	return ((int)(res * flag));
