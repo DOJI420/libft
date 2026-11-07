@@ -54,6 +54,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 	start = 0;
 	end = 0;
+	if (s1 && !set)
+		return (ft_strdup(s1));
 	if (!s1 || !set)
 		return (NULL);
 	while (s1[start] != '\0' && ft_isinset(s1[start], set))
